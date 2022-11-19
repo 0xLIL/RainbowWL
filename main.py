@@ -47,11 +47,9 @@ def main():
             driver.maximize_window()
             driver.get(RAINBOW_LINK)
 
-            email_address = mail.split(':')
-
             print(f"{dt.now().time()} Ввожу аккаунт #{iterator}")
 
-            fill_form(driver, email_address[0])
+            fill_form(driver, mail)
             time.sleep(20)
 
             print(f"{dt.now().time()} Завершаю работу #{iterator}")
