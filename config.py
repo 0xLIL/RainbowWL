@@ -1,0 +1,1 @@
+RAINBOW_LINK = "https://rainbow.me/waitlist?fren=PA7WXXTVC"
